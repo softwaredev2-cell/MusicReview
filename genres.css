@@ -1,0 +1,43 @@
+header {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    margin: 10px auto;
+    text-align: center;
+    display: block;    
+    max-width: 80%;
+}
+article {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+article h2 {
+    color: darkblue;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+article ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+article li {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+article li a {
+    color: darkblue;
+    font-weight: bold;
+}
+main {
+    display: grid;
+    gap: 20px;
+}

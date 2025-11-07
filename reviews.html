@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+    Author: Jasmine Vang
+    Date: 05/16/25
+-->
+<html lang="en">
+    <head>
+        <title>Contact - Infinite</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylesheets/reviews.css">
+        <link rel="stylesheet" href="stylesheets/main.css">
+    </head>
+
+    <body>
+
+       <header>
+        <h1>Reviews</h1>
+        <nav>
+            &bull;
+             <a href="index.html">Home</a> &bull;
+             <a href="genres.html">Genres</a> &bull;
+             <a href="album.html">Album</a> &bull;
+             <a href="artists.html">Artists</a> &bull;
+             <a href="reviews.html">Reviews</a> &bull;
+             <a href="contact.html">Contact</a>
+        </nav>
+       </header>
+    
+       <main>
+        <section>
+            <h2>Infinite Review Club</h2>
+            <p>Prefer to enjoy your albums with honest reviews? No problem. Sign up for our Infinite Review Club and get the best album reviews.</p>
+        </section>
+
+        <section>
+            <h2>Album Reviews</h2>
+            <p>User234: "I really like this website because you can find what you want easily and the reviews are answered honestly."</p>
+            <p>IloveSpace43: "I rate Billie Eilish's album 4 stars ⭐⭐⭐⭐! I really enjoy listening to her music."</p>
+            <p>Icantdecide: "I find Omar Apollo's album a 3 stars for me because I like how fast it is, but I wish it was slower."</p>
+        </section> 
+
+        <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+            <p>An asterisk denotes a required field.</p>
+            <fieldset>
+                <legend>Your Information</legend>
+                <label for="name">Name: <span class="required">*</span></label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email: <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Favorite Music Genre:</legend>
+                <input type="radio" id="genre-pop" name="fav-genre" value="pop">
+                <label for="genre-pop">Pop</label>
+                <input type="radio" id="genre-hiphop" name="fav-genre" value="hiphop">
+                <label for="genre-hiphop">Hip Hop</label>
+                <input type="radio" id="genre-rnb" name="fav-genre" value="rnb">
+                <label for="genre-rnb">R&B</label>
+                <input type="radio" id="genre-classical" name="fav-genre" value="classical">
+                <label for="genre-classical">Classical</label>
+            </fieldset>
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments"></textarea><br><br>
+
+            <div class="buttons">
+                <input type="submit" value="Join Now">
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
+       </main>
+    </body>
+</html>

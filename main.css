@@ -1,0 +1,84 @@
+/* main.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+nav {
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    max-width: 80%;
+    padding: 10px 0;
+}
+
+nav a {
+    color: darkblue;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: black;
+}
+
+/* Add media query for mobile */
+@media screen and (max-width: 40em) {
+    body {
+        padding: 0 10px;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    nav {
+        max-width: 100%;
+    }
+    
+    nav a {
+        padding: 8px 12px; /* Make links more finger-friendly */
+        display: inline-block;
+        margin: 5px;
+    }
+    
+    img {
+        max-width: 100%; /* Ensure images are fully responsive */
+    }
+    
+    /* Adjust spacing for better mobile viewing */
+    section, article {
+        padding: 15px 10px;
+        margin-bottom: 15px;
+    }
+}
